@@ -11,7 +11,6 @@ def generate_testcases(n):
     
 def compile_run(n):
     with open(config.output_path, 'w') as f:
-        for _ in range(3):
             for i in range(n):
                 print("Testcase {}".format(i))
                 # Generate emcc -O0 testcases
@@ -67,11 +66,9 @@ def compile_run(n):
                 else:
                     print("User time 2 not found in cycle {}".format(i))
                 
-                result = user_time2 - user_time1
-                print("Testcase {}: the time difference between emcc -O0 and emcc -O3 is {}".format(i, result))
-                f.write("Testcase {}: the time difference between emcc -O0 and emcc -O3 is {}\n".format(i, result))
-
-    
+                result = user_time2 / user_time1
+                print("Testcase {}: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is {}".format(i, result))
+                f.write("Testcase {}: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is {}\n".format(i, result))
     f.close()
             
 

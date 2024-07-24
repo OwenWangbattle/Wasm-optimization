@@ -1,9 +1,95 @@
-Testcase 0: the time difference between emcc -O0 and emcc -O3 is -0.07
-Testcase 1: the time difference between emcc -O0 and emcc -O3 is -0.01999999999999999
-Testcase 4: the time difference between emcc -O0 and emcc -O3 is 0.010000000000000009
-Testcase 0: the time difference between emcc -O0 and emcc -O3 is -0.01
-Testcase 1: the time difference between emcc -O0 and emcc -O3 is 0.0
-Testcase 4: the time difference between emcc -O0 and emcc -O3 is 0.01
-Testcase 0: the time difference between emcc -O0 and emcc -O3 is -0.01
-Testcase 1: the time difference between emcc -O0 and emcc -O3 is 0.0
-Testcase 4: the time difference between emcc -O0 and emcc -O3 is 0.03
+Testcase 0: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.4761904761904762
+Testcase 1: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.8333333333333334
+Testcase 2: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6842105263157895
+Testcase 3: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.3333333333333335
+Testcase 4: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 2.5
+Testcase 5: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.375
+Testcase 6: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7499999999999999
+Testcase 7: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6153846153846154
+Testcase 8: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.76
+Testcase 9: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.33333333333333337
+Testcase 10: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1428571428571428
+Testcase 11: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.4166666666666667
+Testcase 12: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7333333333333334
+Testcase 13: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7222222222222223
+Testcase 14: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.8461538461538461
+Testcase 15: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5714285714285714
+Testcase 16: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7391304347826088
+Testcase 17: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.125
+Testcase 18: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7272727272727273
+Testcase 19: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.65
+Testcase 20: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0588235294117645
+Testcase 21: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7727272727272728
+Testcase 22: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.25
+Testcase 23: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6153846153846154
+Testcase 24: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.3076923076923077
+Testcase 25: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1666666666666667
+Testcase 26: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6363636363636365
+Testcase 27: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.5714285714285714
+Testcase 28: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 2.0
+Testcase 29: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1578947368421053
+Testcase 30: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.6153846153846152
+Testcase 31: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.888888888888889
+Testcase 32: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7826086956521738
+Testcase 33: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1764705882352942
+Testcase 34: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.875
+Testcase 35: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5
+Testcase 36: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0
+Testcase 37: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 2.2857142857142856
+Testcase 38: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6666666666666667
+Testcase 39: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5
+Testcase 40: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.4166666666666667
+Testcase 41: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5263157894736842
+Testcase 42: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.5999999999999999
+Testcase 43: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0714285714285714
+Testcase 44: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 3.166666666666667
+Testcase 45: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6666666666666666
+Testcase 46: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.3076923076923077
+Testcase 47: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.2608695652173913
+Testcase 48: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.47368421052631576
+Testcase 49: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.4444444444444445
+Testcase 50: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1538461538461537
+Testcase 51: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6666666666666666
+Testcase 52: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6153846153846154
+Testcase 53: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6111111111111112
+Testcase 54: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.4285714285714286
+Testcase 55: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.8333333333333334
+Testcase 56: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6842105263157895
+Testcase 57: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.625
+Testcase 58: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.9473684210526315
+Testcase 59: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6842105263157895
+Testcase 60: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.411764705882353
+Testcase 61: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.44
+Testcase 62: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5789473684210527
+Testcase 63: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.076923076923077
+Testcase 64: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7999999999999999
+Testcase 65: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.43478260869565216
+Testcase 66: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.8750000000000001
+Testcase 67: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.9375
+Testcase 68: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.43750000000000006
+Testcase 69: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6875
+Testcase 70: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.8421052631578947
+Testcase 71: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7499999999999999
+Testcase 72: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.857142857142857
+Testcase 73: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.34615384615384615
+Testcase 74: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.7894736842105263
+Testcase 75: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.4545454545454546
+Testcase 77: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1111111111111112
+Testcase 78: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6818181818181818
+Testcase 79: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.4166666666666667
+Testcase 80: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0666666666666667
+Testcase 81: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.3846153846153846
+Testcase 84: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.368421052631579
+Testcase 85: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5238095238095238
+Testcase 87: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.1904761904761905
+Testcase 88: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.9375
+Testcase 89: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.368421052631579
+Testcase 90: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0
+Testcase 91: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0
+Testcase 92: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.125
+Testcase 93: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.0833333333333335
+Testcase 94: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.9411764705882353
+Testcase 96: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.6842105263157895
+Testcase 97: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 1.1428571428571428
+Testcase 98: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.46666666666666673
+Testcase 99: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is 0.5625
