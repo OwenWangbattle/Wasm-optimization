@@ -1,0 +1,9 @@
+Testcase 0: the time difference between emcc -O0 and emcc -O3 is -0.07
+Testcase 1: the time difference between emcc -O0 and emcc -O3 is -0.01999999999999999
+Testcase 4: the time difference between emcc -O0 and emcc -O3 is 0.010000000000000009
+Testcase 0: the time difference between emcc -O0 and emcc -O3 is -0.01
+Testcase 1: the time difference between emcc -O0 and emcc -O3 is 0.0
+Testcase 4: the time difference between emcc -O0 and emcc -O3 is 0.01
+Testcase 0: the time difference between emcc -O0 and emcc -O3 is -0.01
+Testcase 1: the time difference between emcc -O0 and emcc -O3 is 0.0
+Testcase 4: the time difference between emcc -O0 and emcc -O3 is 0.03
