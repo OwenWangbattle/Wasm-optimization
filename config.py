@@ -11,4 +11,6 @@ wasm_opt_cmd = 'wasm-opt {} -O3 --enable-sign-ext -o {}'
 
 case_path = "/mnt/home/wce/Test/wasm-opt/testcases"
 
-output_path = "/mnt/home/wce/Test/wasm-opt/result/output.txt"
+output_path = "/mnt/home/wce/Test/wasm-opt/result/output.txt"               # output file
+
+outgraph_path = "/mnt/home/wce/Test/wasm-opt/result/graph.png"              # output graph
