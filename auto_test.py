@@ -4,6 +4,7 @@ import subprocess
 import sys
 import re
 import matplotlib.pyplot as plt
+import math
 def generate_testcases(n):
     for i in range(n):
         commandline = config.csmith_cmd.format(config.case_path + "/test{}.c".format(i))
@@ -75,7 +76,8 @@ def compile_run(n):
                 elif num < 0.5:
                     result[0] += 1
                 else:
-                    result[(int)((num - 0.5) / 0.1)] += 1
+                    index = math.ceil((num - 0.5) / 0.1)
+                    result[index] += 1
                 print("Testcase {}: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is {}".format(i, num))
                 f.write("Testcase {}: the execution time rate between emcc -O3 and emcc -O0 + wasm-opt -O3 is {}\n".format(i, num))
     f.close()
